@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio sivu</title>
+    <link rel="stylesheet" href="layout.css">
+    
+</head>
+<body>
+<div id="sailio">
+    <header>
+        <nav>
+            <div class="menu">
+                <ul> 
+                    <li> <a href="index.html">etusivu</a></li>
+                    <li> <a href="a">projektit</a></li>
+                    <li> <a href="a">ota yhteyttä</a></li>
+                </ul>
+            </div>
+            <div class="mobile-nav">
+                <a href="javascript:void(0);" class ="icon" onclick= "myFunction()">x</a>
+            </div>
+
+            <div id="my-links">
+                <a href="index.html">etusivu</a>
+                <a href="a">projektit</a></li>
+                <a href="a">ota yhteyttä</a></li>
+            </div>
+
+        </nav>
+        <h1>oma sivu</h1>
+    </header>
+
+    <main>
+        <h2>tervetuloa</h2>
+        <section id="tervetuloa">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, placeat doloribus recusandae numquam voluptas veniam accusantium alias quod repellat sapiente eius sit! Facere dolorum ducimus maiores, illum dolorem, omnis fuga, quam cum architecto eligendi nobis?</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit esse ducimus cum odio aut odit eos soluta reiciendis. Nam nulla iure animi iste velit, alias maxime distinctio amet sapiente at quibusdam! Dolorem autem est mollitia.</p>
+            <br>
+            <img src="images/1.jpg" alt="kuva">
+        </section>
+
+        <h2>skills</h2>
+        <section id="skills">
+            <div class="card">
+                <h3>skill</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam repellendus officiis quos nobis sequi autem!</p>
+            </div>
+            <div class="card">
+                <h3>skill</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam repellendus officiis quos nobis sequi autem!</p>
+            </div> <div class="card">
+                <h3>skill</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam repellendus officiis quos nobis sequi autem!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="socials">
+            <p>find me here</p>
+        </section>
+        <section id="stuff">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel et  quod corrupti laboriosam</p>
+            <p id="copy">©️ 2011 ALL RIGHTS RESERVED</P>
+        </section>
+    </footer>
+</div>
+
+<script>
+    function myFunction(){
+        let x = document.getElementById("my-links");
+        if (x.style.display === "block")
+        {
+            x.style.display = "none";
+        }
+        else{
+            x.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>
